@@ -1,38 +1,43 @@
 import React from 'react'
+import Img1 from "../../assets/tp1.jpg"
+import Img2 from '../../assets/tp2.jpg'
+import Img3 from "../../assets/tp3.jpg"
+import Img4 from "../../assets/tp4.jpg"
+import Img5 from "../../assets/tp5.jpg"
 import Slider from 'react-slick';
 
 const TestimonailData = [
-    {
-        id: 1,
-        name: "Victor",
-        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, doloribus odit a quo beatae dolor est reiciendis qui quia sunt.",
-        img: "https://plus.unsplash.com/premium_photo-1679079456783-5d862f755557?q=80&w=388&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    },
-    {
-        id: 2,
-        name: "Satya Nadella",
-        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, doloribus odit a quo beatae dolor est reiciendis qui quia sunt.",
-        img: "https://images.unsplash.com/photo-1562707653-a88e91725cf8?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8",
-    },
-    {
-        id: 3,
-        name: "Anushaka sharma",
-        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, doloribus odit a quo beatae dolor est reiciendis qui quia sunt.",
-        img: "https://plus.unsplash.com/premium_photo-1725408049407-1c86e06715e1?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDEyfHx8ZW58MHx8fHx8",
-    },
-    {
-        id: 4,
-        name: "Virat Kohli",
-        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, doloribus odit a quo beatae dolor est reiciendis qui quia sunt.",
-        img: "https://images.unsplash.com/photo-1542296144-61d71dc5aa11?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHRlc3RpbW9uaWFsc3xlbnwwfHwwfHx8MA%3D%3D",
-    },
-    {
-        id: 5,
-        name: "Sadaf Naaz",
-        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, doloribus odit a quo beatae dolor est reiciendis qui quia sunt.",
-        img: "https://images.unsplash.com/photo-1671154453575-b0cea38bb19a?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fHRlc3RpbW9uaWFsc3xlbnwwfHwwfHx8MA%3D%3D",
-    },
-]
+  {
+    id: 1,
+    name: "Aarav Mehta",
+    text: "I absolutely love the quality and style of the clothes I ordered! The delivery was fast and the packaging was premium.",
+    img: Img1,
+  },
+  {
+    id: 2,
+    name: "Sophie Williams",
+    text: "The designs are so trendy! I got so many compliments wearing my new dress. Will definitely shop here again.",
+    img: Img2,
+  },
+  {
+    id: 3,
+    name: "Ravi Sharma",
+    text: "Best online shopping experience ever! Everything fits perfectly and the material is so comfortable.",
+    img: Img3,
+  },
+  {
+    id: 4,
+    name: "Emily Carter",
+    text: "From ordering to delivery, the process was super smooth. The clothes look even better in person!",
+    img: Img4,
+  },
+  {
+    id: 5,
+    name: "Kabir Khan",
+    text: "I’m impressed with the attention to detail. The stitching and finish are top-notch. Highly recommended!",
+    img: Img5,
+  },
+];
 
 const Testimonials = () => {
 
@@ -79,9 +84,9 @@ const Testimonials = () => {
         <div className='container '>
             {/* Header Section */}
             <div className='text-center mb-10 max-w-[600px] mx-auto'>
-             <p data-aos="fade-up" className='text-sm text-primary'>What Our Customers are Saying</p>
-             <h1 data-aos="fade-up" className='text-3xl font-bold'>Testimonails</h1>
-             <p data-aos="fade-up" className='text-xs text-gray-400'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis, maxime.</p>
+             <p data-aos="fade-up" className='text-sm text-primary'>What Our Customers Are Saying</p>
+             <h1 data-aos="fade-up" className='text-3xl font-bold mb-2 mt-2'>Testimonails</h1>
+             <p data-aos="fade-up" className='text-sm text-gray-400'>Real stories from our happy customers — sharing their experiences, style journeys, and why they trust us for fashion they love.</p>
             </div>
             {/* Testimonail Card */}
             <div data-aos="zoom-in">

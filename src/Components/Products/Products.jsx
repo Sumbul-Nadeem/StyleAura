@@ -1,8 +1,9 @@
 import React from 'react'
-import Img1 from "../../assets/women.png";
+import Img1 from "../../assets/women1.jpg";
 import Img2 from "../../assets/women2.jpg";
 import Img3 from "../../assets/women3.jpg";
 import Img4 from "../../assets/women4.jpg";
+import Img5 from "../../assets/women5.jpg";
 import { FaStar } from 'react-icons/fa6';
 
 const ProductsData = [
@@ -11,39 +12,39 @@ const ProductsData = [
     img: Img1,
     title: "Women Ethnic" ,
     rating: 5.0,
-    color: "white",
+    color: "White",
     aosDelay: "0",
   },
   {
     id: 2,
-    img: Img2,
-    title: "Women Western" ,
-    rating: 4.5,
-    color: "red",
-    aosDelay: "200",
-  },
-  {
-    id: 3,
-    img: Img3,
-    title: "Goggles" ,
-    rating: 4.7,
-    color: "brown",
-    aosDelay: "400",
-  },
-  {
-    id: 4,
     img: Img4,
-    title: "Printed t-Shirt" ,
+    title: "Women Shirt" ,
     rating: 4.4,
-    color: "yellow",
+    color: "Yellow",
     aosDelay: "600",
   },
   {
+    id: 3,
+    img: Img2,
+    title: "Women Western" ,
+    rating: 4.5,
+    color: "Red",
+    aosDelay: "200",
+  },
+  {
+    id: 4,
+    img: Img3,
+    title: "Goggles" ,
+    rating: 4.7,
+    color: "Brown",
+    aosDelay: "400",
+  },
+  {
     id: 5,
-    img: Img1,
+    img: Img5,
     title: "Fashion t-Shirt" ,
     rating: 4.5,
-    color: "pink",
+    color: "Pink",
     aosDelay: "800",
   },  
 ];
@@ -54,9 +55,10 @@ const Products = () => {
       <div className='container'>
         {/* Header section */}
         <div className='text-center mb-10 max-w-[600px] mx-auto'>
-          <p data-aos="fade-up" className='text-sm text-primary'>Top Selling Products for  you</p>
-          <h1 data-aos="fade-up" className='text-3xl font-bold'>Products</h1>
-          <p data-aos="fade-up" className='text-xs text-gray-400'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis, maxime.</p>
+          <p data-aos="fade-up" className='text-sm text-primary'>Discover Our Best Picks for You</p>
+          <h1 data-aos="fade-up" className='text-3xl font-bold mb-2 mt-2'>Top-Selling Women's Fashion</h1>
+          <p data-aos="fade-up" className='text-sm text-gray-400'>Explore our most-loved styles — from ethnic elegance to modern casuals. 
+  Handpicked for quality, comfort, and style you’ll love to wear every day.</p>
         </div>
         {/* Body section */}
         <div>

@@ -5,24 +5,24 @@ import Image3 from "../../assets/sale.png";
 import Slider from "react-slick";
 
 const ImageList = [
-    {
-        id: 1,
-        img: Image1,
-        title: "Upto 50% off on all Men's Wear",
-        description: "this is webite based on cloths e-commerece.",
-    },
-    {
-        id: 2,
-        img: Image2,
-        title: "30% off on all Women's Wear",
-        description: "this is webite based on cloths e-commerece.",
-    },
-      {
-        id: 3,
-        img: Image3,
-        title: "70% off on all Products Sale",
-        description: "this is webite based on cloths e-commerece.",
-    },
+   {
+    id: 1,
+    img: Image1,
+    title: "30% Off on All Women's Wear",
+    description: "Discover the latest trends in women’s fashion at unbeatable prices. Shop now and upgrade your wardrobe.",
+},
+{
+    id: 2,
+    img: Image2,
+    title: "Up to 50% Off on All Men's Wear",
+    description: "From casual to formal, find stylish men's clothing at great discounts. Limited-time offer!",
+},
+{
+    id: 3,
+    img: Image3,
+    title: "Mega Sale – Up to 70% Off Storewide",
+    description: "Grab your favorite outfits and accessories at jaw-dropping prices. Don’t miss this sale!",
+},
 ];
 
 const Hero = ({handleOrderPopup}) => {

@@ -41,11 +41,10 @@ const Footer = () => {
           <div className="py-8 px-4">
             <h1 className="sm:text-3xl text-xl font-bold sm:text-left text-justify mb-3 flex items-center gap-3">
               <img src={footerLogo} alt="" className="max-w-[50px]" />
-              Shopsy
+              StyleAura
             </h1>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum in
-              beatae ea recusandae blanditiis veritatis.
+              At StyleAura, fashion is more than clothing — it’s self-expression. We bring you timeless classics and modern trends to keep you confident, comfortable, and uniquely you.
             </p>
           </div>
 
@@ -93,10 +92,10 @@ const Footer = () => {
                 <a href="#">
                   <FaInstagram className="text-3xl" />
                 </a>
-                 <a href="#">
+                 <a href="https://www.linkedin.com/in/sumbul-nadeem/">
                   <FaLinkedin className="text-3xl" />
                 </a>
-                <a href="#">
+                <a href="https://github.com/Sumbul-Nadeem">
                   <FaGithub className="text-3xl" />
                 </a>
               </div>

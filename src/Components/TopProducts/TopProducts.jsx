@@ -5,38 +5,36 @@ import Img2 from "../../assets/shirt2.png";
 import Img3 from "../../assets/shirt3.png";
 import { FaStar } from 'react-icons/fa6';
 
-
-
-const ProductsData =[
+const ProductsData = [
     {
         id: 1,
         img: Img1,
-        title: "casual wear",
-        description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi voluptatibus quae libero officiis dolor corporis ut ad.",
+        title: "Casual Everyday Wear",
+        description: "Stay comfortable and stylish with our premium casual wear – perfect for work, weekends, and everything in between.",
     },
     {
         id: 2,
         img: Img2,
-        title: "Printed Shirt",
-        description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi voluptatibus quae libero officiis dolor corporis ut ad.",
+        title: "Printed Statement Shirt",
+        description: "Add a pop of personality to your wardrobe with bold, trendy prints that never go out of style.",
     },
     {
         id: 3,
         img: Img3,
-        title: "Women Shirt",
-        description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi voluptatibus quae libero officiis dolor corporis ut ad.",
+        title: "Elegant Women's Shirt",
+        description: "A timeless shirt crafted for both comfort and sophistication – your new go-to for any occasion.",
     },
-]
+];
 
 const TopProducts = ({handleOrderPopup}) => {
   return (
     <div>
         <div className='conatiner'>
             {/* Header Section */}
-            <div className='text-left mb-28'>
-             <p data-aos="fade-up" className='text-sm text-primary'>Top Rated Products for  you</p>
-             <h1 data-aos="fade-up" className='text-3xl font-bold'>Best Products</h1>
-             <p data-aos="fade-up" className='text-xs text-gray-400'>Lorem ipsum sumbul dolor sit amet, consectetur adipisicing elit. Quis, maxime.</p>
+            <div className='text-center mb-28 max-w-[600px] mx-auto'>
+             <p data-aos="fade-up" className='text-sm text-primary'>Handpicked Just for You</p>
+             <h1 data-aos="fade-up" className='text-3xl font-bold mt-2 mb-2'>Best-Selling Favorites</h1>
+             <p data-aos="fade-up" className='text-sm text-gray-400'>Discover our top-rated products loved by customers for their quality, comfort, and style. Shop the most popular picks today.</p>
             </div>
             {/* Body Section */}
             <div
